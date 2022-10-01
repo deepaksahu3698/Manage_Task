@@ -1,0 +1,66 @@
+.inputbox{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    row-gap: 10px;
+
+}
+.inputbox label{
+    font-weight: bold;
+    font-size: 40px;
+}
+.inputbox input{
+    height: 30px;
+    width: 30%;
+    border: 2px solid black;
+    font-size: 30px;
+}
+.addbutton{
+    height: 40px;
+    margin: auto;
+    width: 10%;
+    /* border: 1px solid rebeccapurple; */
+
+}
+.addbutton button{
+    height: 40px;
+   width: 100%;
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   background-color: teal;
+   border: none;
+}
+.displaytodolist{
+    border: 1px solid teal;
+    height: 50px;
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px auto;
+}
+.displaytodolist input{
+  height: 30px;
+    width: 20px;
+}
+.displaytodolist  button{
+    height: 30px;
+    font-weight: bold;
+    background-color: teal;
+    color: white;
+    border: none;
+}
+.lsco,.psco{
+    color: teal;
+    text-decoration: underline;
+}
+.allpendingtask,.allcompletedtask{
+    height: auto;
+    border: 1px solid teal;
+    border-radius: 5px;
+    width: 20%;
+    margin: auto;
+}
